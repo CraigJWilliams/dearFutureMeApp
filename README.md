@@ -72,7 +72,7 @@ Before you begin, ensure you have the following installed:
     npm install
     ```
     
-    5. **Create a Copy of Your .env File**
+5. **Create a Copy of Your .env File**
 
     Duplicate the `.env.example` file to create your `.env` file. This file contains important configuration settings for your application.
 
