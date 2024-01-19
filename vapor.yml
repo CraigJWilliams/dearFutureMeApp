@@ -1,0 +1,14 @@
+id: 56357
+name: dearfuturemeprod
+environments:
+  production:
+    database: dearfuturemeproddb
+    memory: 1024
+    cli-memory: 512
+    runtime: 'php-8.2:al2'
+    build:
+      - 'php artisan config:clear'
+      - 'php artisan cache:clear'
+      - 'COMPOSER_MIRROR_PATH_REPOS=1 composer install --no-dev'
+      - 'php artisan event:cache'
+      - 'npm ci && npm run build && rm -rf node_modules'
