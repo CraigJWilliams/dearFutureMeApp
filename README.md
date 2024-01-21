@@ -46,7 +46,7 @@ Before you begin, ensure you have the following installed:
    Clone the project repository by running the following command:
 
    ```bash
-   git clone https://github.com/CraigJWilliams/dearFutureMeApp/tree/main
+   git clone https://github.com/CraigJWilliams/dearFutureMeApp
    ```
    
 2. **Change directory to your project folder**
